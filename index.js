@@ -6,4 +6,4 @@ currentTime();
 addOptions();
 
 const addCurrentTimeForm = document.querySelector("#addCurrentTime");
-addCurrentTimeForm.addEventListener("submit", addCurrentTimeHandler(e));
+addCurrentTimeForm.addEventListener("submit", addCurrentTimeHandler);
