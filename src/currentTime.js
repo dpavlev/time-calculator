@@ -3,7 +3,7 @@ export function currentTime() {
     window.setInterval(refreshTime, 1000);
     function refreshTime() {
         const current = getCurrentTime();
-        h1.textContent = current.toLocaleTimeString("BG-bg");
+        h1.textContent = current.toLocaleString("BG-bg");
     }
 }
 
