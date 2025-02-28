@@ -10,20 +10,24 @@
 
 <body>
     <h1>Current time: <span id="currentTime"></span></h1>
-    <h2>Add to current time</h2>
-    <form id="timeForm">
-        <label for="hour">Hours</label>
-        <select name="hour" id="hour">
-            <!-- Options are added with JavaScript -->
-        </select>
-        <label for="minutes">Minutes</label>
-        <select name="minutes" id="minutes">
-            <!-- Options are added with JavaScript -->
-        </select>
-        <input type="submit" value="Submit">
-    </form>
-    <h2 id="takenTime"></h2>
-    <h2 id="newTime"></h2>
+    <main>
+        <div>
+            <h2>Add to current time</h2>
+            <form id="addCurrentTime">
+                <label for="hour">Hours</label>
+                <select name="hour" class="hour">
+                    <!-- Options are added with JavaScript -->
+                </select>
+                <label for="minutes">Minutes</label>
+                <select name="minutes" class="minutes">
+                    <!-- Options are added with JavaScript -->
+                </select>
+                <input type="submit" value="Submit">
+            </form>
+            <h2 id="takenTime"></h2>
+            <h2 id="newTime"></h2>
+        </div>
+    </main>
 </body>
 
 </html>
