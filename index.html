@@ -28,6 +28,31 @@
             <h2 id="takenTime"></h2>
             <h2 id="newTime"></h2>
         </div>
+        <div>
+            <h2>Add to custom datetime</h2>
+            <form id="customDatetime">
+                <label for="startDate">Start Date</label>
+                <input type="date" name="startDate" id="date">
+                <label for="startHour">Start Hours</label>
+                <select name="startHour" class="hour">
+                    <!-- Options are added with JavaScript -->
+                </select>
+                <label for="startMinutes">Start Minutes</label>
+                <select name="startMinutes" class="minutes">
+                    <!-- Options are added with JavaScript -->
+                </select>
+                <label for="hour">Add Hours</label>
+                <select name="hour" class="hour">
+                    <!-- Options are added with JavaScript -->
+                </select>
+                <label for="minutes">Add Minutes</label>
+                <select name="minutes" class="minutes">
+                    <!-- Options are added with JavaScript -->
+                </select>
+                <input type="submit" value="Submit">
+                <h2 id="resultDatetime"></h2>
+            </form>
+        </div>
     </main>
 </body>
 
