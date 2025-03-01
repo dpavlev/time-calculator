@@ -59,38 +59,26 @@
             <form id="converter">
 
                 <label for="years">Years</label>
-                <select name="years" id="years">
-                    <!-- Options are added with JavaScript -->
-                </select><br>
+                <input type="number" name="years" id="years" value="0" min="0"><br>
                 <label for="days">Days</label>
-                <select name="days" id="days">
-                    <!-- Options are added with JavaScript -->
-                </select><br>
+                <input type="number" name="days" id="days" value="0" min="0"><br>
                 <label for="hour">Hours</label>
-                <select name="hour" class="hour">
-                    <!-- Options are added with JavaScript -->
-                </select><br>
+                <input type="number" name="hours" id="hours" value="0" min="0"><br>
                 <label for="minutes">Minutes</label>
-                <select name="minutes" class="minutes">
-                    <!-- Options are added with JavaScript -->
-                </select><br>
+                <input type="number" name="minutes" id="minutes" value="0" min="0"><br>
                 <label for="seconds">Seconds</label>
-                <select name="seconds" id="seconds">
-                    <!-- Options are added with JavaScript -->
-                </select><br>
-                <div>
-                    <p>Convert to:</p>
-                    <input type="radio" name="convUnit" id="years" value="years">
-                    <label for="years">Years</label><br>
-                    <input type="radio" name="convUnit" id="days" value="days">
-                    <label for="days">Days</label><br>
-                    <input type="radio" name="convUnit" id="hours" value="hours">
-                    <label for="hours">Hours</label><br>
-                    <input type="radio" name="convUnit" id="minutes" value="minutes">
-                    <label for="minutes">Minutes</label><br>
-                    <input type="radio" name="convUnit" id="seconds" value="seconds">
-                    <label for="seconds">Seconds</label><br>
-                </div>
+                <input type="number" name="seconds" id="seconds" value="0" min="0"><br>
+                <p>Convert to:</p>
+                <input type="radio" name="convUnit" id="years" value="years">
+                <label for="years">Years</label><br>
+                <input type="radio" name="convUnit" id="days" value="days">
+                <label for="days">Days</label><br>
+                <input type="radio" name="convUnit" id="hours" value="hours">
+                <label for="hours">Hours</label><br>
+                <input type="radio" name="convUnit" id="minutes" value="minutes">
+                <label for="minutes">Minutes</label><br>
+                <input type="radio" name="convUnit" id="seconds" value="seconds">
+                <label for="seconds">Seconds</label><br>
                 <br>
                 <input type="submit" value="Submit">
             </form>
