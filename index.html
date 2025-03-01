@@ -56,8 +56,7 @@
         </div>
         <div>
             <h2>Time Converter</h2>
-            <form id="converter">
-
+            <form id="timeConverter">
                 <label for="years">Years</label>
                 <input type="number" name="years" id="years" value="0" min="0"><br>
                 <label for="days">Days</label>
@@ -69,7 +68,7 @@
                 <label for="seconds">Seconds</label>
                 <input type="number" name="seconds" id="seconds" value="0" min="0"><br>
                 <p>Convert to:</p>
-                <input type="radio" name="convUnit" id="years" value="years">
+                <input type="radio" name="convUnit" id="years" value="years" checked>
                 <label for="years">Years</label><br>
                 <input type="radio" name="convUnit" id="days" value="days">
                 <label for="days">Days</label><br>
@@ -82,7 +81,7 @@
                 <br>
                 <input type="submit" value="Submit">
             </form>
-
+            <h2 id="resultTime"></h2>
         </div>
     </main>
 </body>
