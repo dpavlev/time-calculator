@@ -18,11 +18,11 @@
                 <label for="hour">Hours</label>
                 <select name="hour" class="hour">
                     <!-- Options are added with JavaScript -->
-                </select>
+                </select><br>
                 <label for="minutes">Minutes</label>
                 <select name="minutes" class="minutes">
                     <!-- Options are added with JavaScript -->
-                </select>
+                </select><br>
                 <input type="submit" value="Submit">
             </form>
             <h2 id="takenTime"></h2>
@@ -32,27 +32,69 @@
             <h2>Add to custom datetime</h2>
             <form id="customDatetime">
                 <label for="startDate">Start Date</label>
-                <input type="date" name="startDate" id="date">
+                <input type="date" name="startDate" id="date"><br>
                 <label for="startHour">Start Hours</label>
                 <select name="startHour" class="hour">
                     <!-- Options are added with JavaScript -->
-                </select>
+                </select><br>
                 <label for="startMinutes">Start Minutes</label>
                 <select name="startMinutes" class="minutes">
                     <!-- Options are added with JavaScript -->
-                </select>
+                </select><br>
                 <label for="hour">Add Hours</label>
                 <select name="hour" class="hour">
                     <!-- Options are added with JavaScript -->
-                </select>
+                </select><br>
                 <label for="minutes">Add Minutes</label>
                 <select name="minutes" class="minutes">
                     <!-- Options are added with JavaScript -->
-                </select>
+                </select><br>
                 <input type="submit" value="Submit">
             </form>
             <h2 id="startDatetime"></h2>
             <h2 id="resultDatetime"></h2>
+        </div>
+        <div>
+            <h2>Time Converter</h2>
+            <form id="converter">
+
+                <label for="years">Years</label>
+                <select name="years" id="years">
+                    <!-- Options are added with JavaScript -->
+                </select><br>
+                <label for="days">Days</label>
+                <select name="days" id="days">
+                    <!-- Options are added with JavaScript -->
+                </select><br>
+                <label for="hour">Hours</label>
+                <select name="hour" class="hour">
+                    <!-- Options are added with JavaScript -->
+                </select><br>
+                <label for="minutes">Minutes</label>
+                <select name="minutes" class="minutes">
+                    <!-- Options are added with JavaScript -->
+                </select><br>
+                <label for="seconds">Seconds</label>
+                <select name="seconds" id="seconds">
+                    <!-- Options are added with JavaScript -->
+                </select><br>
+                <div>
+                    <p>Convert to:</p>
+                    <input type="radio" name="convUnit" id="years" value="years">
+                    <label for="years">Years</label><br>
+                    <input type="radio" name="convUnit" id="days" value="days">
+                    <label for="days">Days</label><br>
+                    <input type="radio" name="convUnit" id="hours" value="hours">
+                    <label for="hours">Hours</label><br>
+                    <input type="radio" name="convUnit" id="minutes" value="minutes">
+                    <label for="minutes">Minutes</label><br>
+                    <input type="radio" name="convUnit" id="seconds" value="seconds">
+                    <label for="seconds">Seconds</label><br>
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
         </div>
     </main>
 </body>

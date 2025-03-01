@@ -1,5 +1,5 @@
-form {
-    display: inline-grid;
-    gap: 10px;
+form input,
+select {
+    margin: 5px;
     min-width: 4rem;
 }
