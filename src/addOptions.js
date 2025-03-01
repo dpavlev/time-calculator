@@ -27,4 +27,16 @@ export default function () {
             minutesSelect.append(option);
         }
     });
+    const secondsSelect = document.querySelector("#seconds");
+    for (let i = 0; i < 60; i++) {
+        const option = document.createElement("option");
+        if (i / 10 < 1) {
+            option.value = "0" + i;
+            option.textContent = "0" + i;
+        } else {
+            option.value = i;
+            option.textContent = i;
+        }
+        secondsSelect.append(option);
+    }
 }
